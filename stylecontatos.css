@@ -1,0 +1,169 @@
+.fixFloat {
+    clear: both;
+    /*elimina a ação do float*/
+}
+
+body {
+    margin: auto;
+    width: 960px;
+    padding: 0px;
+    background-color: #ddd;
+    background: url(fundo.gif) repeat-x;
+        /*repete na horizontal*/
+     overflow-y: scroll; /*barra de rolagem */
+}
+
+#cab img {
+    float: left;
+}
+
+#social {
+    float: right;
+    margin-top: 40px;
+}
+
+#social img {
+    width: 32px;
+    height: 32px;
+}
+
+#menu {
+    float: left;
+    margin-top: 93px;
+    width: 453px;
+}
+
+#menu ul {
+    list-style: none;
+    /*tira as bolinhas da lista */
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to bottom, #ddd, #ccc)
+        /* ddd =  cinza */
+}
+
+#menu li {
+    height: 57px;
+    display: table-cell;
+    /* celula de tabela */
+    text-align: center;
+    vertical-align: middle;
+    /* alinhamento vertical = meio*/
+    width: 150px;
+    border-right: 1px solid #062;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+#banner {
+    margin-top: 15px;
+}
+
+#banner img {
+    width: 960px;
+
+}
+
+#lateral {
+    float: right;
+    background: #ddd;
+    width: 190px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+#lateral h1 {
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-top: -5px;
+
+}
+
+#lateral h2 {
+    font-size: 15px;
+
+}
+
+#lateral p {
+    text-align: justify;
+}
+
+#main {
+    background: #bbb;
+    width: 730px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#main h1 {
+    font-size: 20pt;
+    border-bottom: 1px solid;
+}
+
+#main h2 {
+    font-size: 15px;
+}
+
+#main p {
+    text-align: justify;
+    
+}
+
+footer {
+    color: #888;
+    border: #000 solid 1px;
+
+
+}
+
+footer p {
+    display: inline-block;
+    width: 316px;
+    text-align: center;
+}
+details{
+    margin-top: 30px;
+}
+details p{
+    font-size: 20px;
+}
+summary{
+  height: 30px;
+  background: linear-gradient(to bottom, #bbb,#999);
+  cursor: pointer;
+  font: 12pt arial;
+  font-weight: bold; /*negrito*/
+  padding: 10px 0px 0px 10px;
+}
+details[open] summary{
+    color: #fff;
+    background: linear-gradient(to bottom, #e00,#900);
+}
+details[open] {
+    background-color: #eee;
+}
+#contatos label{
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    font-family: arial;
+    color: #888;
+    display: block;
+    margin-top: 20px;
+}
+#contatos input[type="submit"],#contatos input[type="reset"]{
+border: 0px;
+width: 120px;
+height: 50px;
+color: #fff;
+background-color: #060;
+border-radius: 10px;
+cursor: pointer;
+}
+

@@ -1,0 +1,146 @@
+body {
+    margin: auto;
+    width: 960px;
+    background-color: #ddd;
+    padding: 0px;
+    background: url(fundo.gif) repeat-x;
+        /*repete na horizontal*/
+        overflow-y: scroll; /*obriga barra de rolagem*/
+}
+.fixFloat {
+    clear: both;  /* both elimina left e right */
+    /*elimina a ação do float*/
+}
+
+#cab img {
+    float: left;
+}
+
+#social {
+    float: right;
+    margin-top: 40px;
+}
+
+#social img {
+    width: 32px;
+    height: 32px;
+}
+
+#menu {
+    float: left;
+    margin-top: 93px;
+    width: 453px;
+}
+
+#menu ul {
+    list-style: none;
+    /*tira os marcadores da lista */
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to bottom, #ddd, #ccc);
+        /* ddd =  cinza */
+}
+
+#menu li {
+    height: 57px;
+    display: table-cell;
+    /* um do lado do outro */
+    text-align: center;
+    vertical-align: middle;
+    /* alinhamento vertical = meio*/
+    width: 150px;
+    border-right: 1px solid #062;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+#banner {
+    margin-top: 15px;
+    width: 960px;
+    margin-bottom: 10px;
+    height: 384px;
+}
+
+#banner img {
+    width: 960px;
+    height: 384px;
+
+}
+#b1{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+#b2{
+    position: relative;
+    left: 0px;
+    top: -388px;
+}
+#b3{
+    position: relative;
+    left: 0px;
+     top: -776px;
+}
+#lateral {
+    float: right;
+    background: #ddd;
+    width: 190px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+#lateral h1 {
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-top: -5px;
+
+}
+
+#lateral h2 {
+    font-size: 15px;
+
+}
+
+#lateral p {
+    text-align: justify;
+}
+
+#main {
+    background: #bbb;
+    width: 730px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#main h1 {
+    font-size: 20pt;
+    border-bottom: 1px solid;
+}
+
+#main h2 {
+    font-size: 15px;
+}
+
+#main p {
+    text-align: justify;
+}
+
+footer {
+    color: #888;
+    border: #000 solid 1px;
+
+
+}
+
+footer p {
+    display: inline-block;
+    width: 316px;
+    text-align: center;
+}
+
