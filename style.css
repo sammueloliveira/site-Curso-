@@ -4,12 +4,11 @@ body {
     background-color: #ddd;
     padding: 0px;
     background: url(fundo.gif) repeat-x;
-        /*repete na horizontal*/
-        overflow-y: scroll; /*obriga barra de rolagem*/
+    overflow-y: scroll; 
 }
 .fixFloat {
-    clear: both;  /* both elimina left e right */
-    /*elimina a ação do float*/
+    clear: both;  
+    
 }
 
 #cab img {
@@ -34,20 +33,17 @@ body {
 
 #menu ul {
     list-style: none;
-    /*tira os marcadores da lista */
     padding: 0px;
     margin: 0px;
     background: linear-gradient(to bottom, #ddd, #ccc);
-        /* ddd =  cinza */
+        
 }
 
 #menu li {
     height: 57px;
     display: table-cell;
-    /* um do lado do outro */
     text-align: center;
     vertical-align: middle;
-    /* alinhamento vertical = meio*/
     width: 150px;
     border-right: 1px solid #062;
 }
