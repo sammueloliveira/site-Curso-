@@ -1,6 +1,7 @@
 .fixFloat {
     clear: both;
-    /*elimina a ação do float*/
+    
+    
 }
 
 body {
@@ -9,8 +10,7 @@ body {
     padding: 0px;
     background-color: #ddd;
     background: url(fundo.gif) repeat-x;
-        /*repete na horizontal*/
-     overflow-y: scroll; /*barra de rolagem */
+    overflow-y: scroll; 
 }
 
 #cab img {
@@ -35,20 +35,17 @@ body {
 
 #menu ul {
     list-style: none;
-    /*tira as bolinhas da lista */
     padding: 0px;
     margin: 0px;
     background: linear-gradient(to bottom, #ddd, #ccc)
-        /* ddd =  cinza */
+       
 }
 
 #menu li {
     height: 57px;
     display: table-cell;
-    /* celula de tabela */
     text-align: center;
     vertical-align: middle;
-    /* alinhamento vertical = meio*/
     width: 150px;
     border-right: 1px solid #062;
 }
@@ -138,7 +135,7 @@ summary{
   background: linear-gradient(to bottom, #bbb,#999);
   cursor: pointer;
   font: 12pt arial;
-  font-weight: bold; /*negrito*/
+  font-weight: bold; 
   padding: 10px 0px 0px 10px;
 }
 details[open] summary{
